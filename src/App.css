@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  color: white;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.user-card {
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.project-logo {
+  width: 60px;  /* Adjusted size */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.auth-container h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif; /* Modern, clean font */
+  font-weight: bold;
+  color: #041011; /* Blue color */
+  text-align: center;
+}
+
+.auth-container h3 {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px; /* Adds spacing below h3 */
+}
