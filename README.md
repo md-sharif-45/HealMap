@@ -2,8 +2,6 @@
 
 HealMap is a hospital finder application that helps users locate nearby hospitals easily. It uses Google OAuth for authentication and an interactive map for navigation.
 
-## This site is live at : https://md-sharif-45.github.io/HealMap/
-
 ## Features
 - Google Login Authentication
 - Find nearby hospitals on a map
@@ -32,5 +30,3 @@ Open `http://localhost:5173/` in your browser to view the app.
    2. Google OAuth
    3. Geoapify API
 
-## Screenshot
-  ![Screenshot]((https://github.com/md-sharif-45/HealMap/blob/main/public/ss.png))
